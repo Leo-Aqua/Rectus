@@ -20,4 +20,4 @@ https://github.com/Leo-Aqua/Rectus/blob/6b60556159b3ef25415fd255b131ab0967fcae2a
 # Compiling
 just use pyinstaller.
 
-`pyinstaller --hidden-import win32api --hidden-import win32gui --hidden-import keyboard --hidden-import random --onefile Rectus.py`
+`pyinstaller --hidden-import win32api --hidden-import win32gui --hidden-import keyboard --hidden-import random --hidden-import time --onefile Rectus.py`
