@@ -18,4 +18,4 @@ Edit stopcode here:
 https://github.com/Leo-Aqua/Rectus/blob/6b60556159b3ef25415fd255b131ab0967fcae2a/Rectus.py#L24
 
 # Compiling
-just use py2exe.
+just use pyinstaller.
