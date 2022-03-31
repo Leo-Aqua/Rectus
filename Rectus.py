@@ -21,7 +21,7 @@ def f1():
         try:
             dc = win32gui.GetDC(0)
             win32gui.Rectangle(dc, random.randint(1, 2000), random.randint(1, 2000), random.randint(1, 2000), random.randint(1, 2000))
-            if keyboard.is_pressed("ü"): #leave blank if you don't want to make it exitable
+            if keyboard.is_pressed(""): #leave blank if you don't want to make it exitable
                 break
         except:
             True
