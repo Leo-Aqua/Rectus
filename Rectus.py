@@ -1,8 +1,5 @@
-from pickle import TRUE
-from threading import TIMEOUT_MAX
-from tkinter.font import BOLD
-import win32gui, win32api, keyboard, random #imports
 
+import win32gui, win32api, keyboard, random, time #imports
 print("""
 8888888b.  8888888888  .d8888b.  88888888888 888     888  .d8888b.  
 888   Y88b 888        d88P  Y88b     888     888     888 d88P  Y88b 
@@ -21,7 +18,7 @@ def f1():
         try:
             dc = win32gui.GetDC(0)
             win32gui.Rectangle(dc, random.randint(1, 2000), random.randint(1, 2000), random.randint(1, 2000), random.randint(1, 2000))
-            if keyboard.is_pressed(""): #leave blank if you don't want to make it exitable
+            if keyboard.is_pressed("ü"): #leave blank if you don't want to make it exitable
                 break
         except:
             True
@@ -29,3 +26,5 @@ def f1():
 f1()
 while True: #keeps Terminal alive
     True
+    time.sleep(5)
+    break
